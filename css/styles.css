@@ -1,0 +1,203 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:40;
+    text-align:center;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+}
+p{
+    color:#8f8f8f;
+}
+
+
+
+.container-fluid
+{
+    padding:7% 15%;
+}
+.coloured
+{
+    background-color:#ff4c68;
+    color:white;
+}
+.white
+{
+    background-color:white;
+}
+/**************************Title ****************************/
+#title
+{
+    
+    text-align:left;
+}
+#title h1
+{ 
+    font-size: 3.5rem;
+    line-height:1.5;
+}
+#title .container-fluid
+{
+    padding-top:3%;
+}
+
+
+/********************** Navigation bar ***********************/
+.navbar
+{
+    padding:0 0 4.5rem 0;
+}
+.navbar-brand
+{
+    font-family:'Ubuntu',sans-serif;
+    font-size:2.5rem;
+    font-weight:bold;
+}
+.nav-item
+{
+    padding:0 15px;
+}
+.nav-link
+{
+    font-size:1rem;
+    font-weight:lighter;
+}
+
+/*Download buttons*/
+.down-btn
+{
+    margin:5% 3% 5% 0;
+}
+/*title image*/
+.title-image
+{
+    width:60%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:30%;
+}
+/*********************Features*******************************/
+#features
+{
+    position:relative;
+}
+.feature-image
+{
+    color:#ef8172;
+    margin-bottom:1rem;
+    
+}
+.feature-image:hover
+{
+    color:#ff4c68;
+}
+.features h3
+{
+    font-size:1.5rem;
+}
+.features p
+{
+    margin-bottom:5rem;
+}
+/***********************Testimonial section*********************/
+#testimonials
+{
+    background-color:#ef8172;
+}
+#testimonials h2
+{
+    font-size:3rem;
+    line-height:1.5;
+}
+.testimonial-image
+{
+    width:20%;
+    border-radius:100%;
+    margin:1rem 0.7rem 1rem 0;
+}
+
+
+
+/****************Press Section********************/
+#press
+{
+    background-color:#ef8172;
+}
+#press img
+{
+    width:15%;
+    margin:0rem 2rem 0rem;
+    padding-top:4.5rem ;
+    padding-bottom:4.5rem;
+}
+    
+    
+    /*********************Pricing**************************/
+#pricing
+{
+    padding:10% 7%;
+   
+}
+.pricing-h2
+{
+    font-size:3rem;
+    line-height:1.5;
+}
+
+.pricing-column
+{
+    padding:2%;
+}
+.pricing-column h2
+{
+    font-size:2rem;
+    line-height:1.5;
+}
+.pricing-column h3
+{
+    
+    font-size:1.25rem;
+}
+/******************** CALL to ACTION ******************/
+#cta
+{
+    padding:10% 7%;
+}
+#cta h3
+{
+    
+    margin-bottom:7%;
+    font-size:3.5rem;
+}
+#cta .btn
+{
+    margin-left:1%;
+}
+/* ******************FOOTER****************** */
+
+#footer i
+{
+    margin:2%;
+}
+#footer p
+{
+    font-size:1rem;
+}
+
+/**************************** media-query ********************************/
+@media (max-width:1028px)
+{
+    .title-image
+    {
+        position:static;
+        transform:rotate(0);
+    }
+    #title
+    {
+        text-align:center;    
+    }
+
+}
